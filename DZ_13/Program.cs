@@ -7,7 +7,7 @@
 // 32679 -> 6
 
 Console.WriteLine("Введите число: ");
-string num = Console.ReadLine();
+int num = Convert.ToInt32(Console.ReadLine());
 
 string str = num.ToString();
 int minLength = 2;
